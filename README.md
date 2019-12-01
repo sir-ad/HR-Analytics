@@ -1,7 +1,7 @@
 
-# HR-Analytics
+### HR-Analytics
 
-##### Problem Statement
+#### Problem Statement
 
   Your client is a large MNC and they have 9 broad verticals across the organisation. One of the problem your client is facing is around identifying the right people for promotion (only for manager position and below) and prepare them in time. Currently the process, they are following is:
 
@@ -16,3 +16,19 @@
 They have provided multiple attributes around Employee's past and current performance along with demographics. 
 
 Now, The task is to predict whether a potential promotee at checkpoint in the test set will be promoted or not after the evaluation process.
+
+###### Feature Engineering 
+  
+  sum_performance = addition of the important factors for the promotion (awards_won;KpIs_met & previous_year_rating).
+  
+  Total nmber of training hours = avg_training_score * no_of_training
+  
+  recruitment_channel have no impact on the promotion so removed that.
+  
+###### Model Applied :
+    
+   Random Forest
+   Adaboost
+   Gradient Boosting
+   Catboost
+   
